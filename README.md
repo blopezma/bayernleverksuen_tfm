@@ -1,5 +1,3 @@
-# TFM Bayern Leverkusen temporada 2023/2024
-
 # Análisis Táctico del Bayer Leverkusen - TFM
 
 Este repositorio contiene el código fuente utilizado en el Trabajo Final de Máster para el análisis táctico del Bayer Leverkusen en la Bundesliga 2023/2024. Incluye herramientas para el procesamiento de datos de StatsBomb, visualizaciones con Matplotlib y una interfaz interactiva construida en Streamlit.
