@@ -14,6 +14,7 @@ Repositorio GitHub: https://github.com/blopezma/bayernleverksuen_tfm
 .
 ├── data/                    # Datos de entrada (.csv)
 ├── figs/                    # Salidas visuales (figuras PNG)
+├── notebooks/               # Jupyter Notebooks explicativos
 ├── streamlit/               # Aplicaciones interactivas
 ├── src/                     # Módulos de procesamiento
 │   ├── red_pases.py         # Código para redes de pase
@@ -49,6 +50,18 @@ El archivo `.env` no está incluido por motivos de seguridad, ya que contiene la
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
+## Notebooks incluidos
+
+Los principales análisis están disponibles en formato Jupyter Notebook para facilitar la exploración, ejecución y replicación de resultados.
+
+- `01_preprocesado_datos.ipynb`: Limpieza inicial y tratamiento de coordenadas.
+- `02_red_pases.ipynb`: Generación de redes de pase y análisis automatizado con IA.
+- `03_freeze_frame.ipynb`: Visualización y análisis táctico de datos 360°.
+- `04_kmeans_formaciones.ipynb`: Detección de formaciones mediante clustering.
+- `05_streamlit_app.ipynb`: Código base de la app interactiva.
+
+> Nota: el archivo `.env` con la clave de la API no se incluye por motivos de seguridad.
+
 ## Visualizaciones disponibles
 
 ### Red de pases
@@ -74,6 +87,12 @@ streamlit run app_freeze_streamlit.py
 ```
 
 Esta aplicación permite seleccionar jugadas y visualizar todos los paneles sin necesidad de programación.
+
+## Contacto
+
+Proyecto desarrollado por Borja López como parte del Trabajo Final de Máster. Para dudas, sugerencias o aportes, puede abrir una issue en el repositorio.
+
+© 2024 Borja López. Proyecto académico sin fines comerciales.
 
 ## Contacto
 
