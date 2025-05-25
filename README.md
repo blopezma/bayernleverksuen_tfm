@@ -48,6 +48,8 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Notebooks incluidos
 
+> El notebook `01_preprocesado_datos.ipynb` es el encargado de generar los archivos `.csv` intermedios en la carpeta `data/`, que son utilizados posteriormente por los notebooks `02`, `03`, `04` y `05`.
+
 Los principales análisis están disponibles en formato Jupyter Notebook para facilitar la exploración, ejecución y replicación de resultados.
 
 - `01_preprocesado_datos.ipynb`: Limpieza inicial y tratamiento de coordenadas.
