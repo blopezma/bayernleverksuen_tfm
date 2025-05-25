@@ -15,11 +15,6 @@ Repositorio GitHub: https://github.com/blopezma/bayernleverksuen_tfm
 ├── logos/                   # Logos utilizados                  
 ├── notebooks/               # Jupyter Notebooks explicativos
 ├── streamlit/               # Aplicaciones interactivas
-├── src/                     # Módulos de procesamiento
-│   ├── red_pases.py         # Código para redes de pase
-│   ├── freeze_frame.py      # Análisis freeze frame
-│   ├── kmeans_formacion.py  # Formaciones automáticas
-│   └── ...
 ├── .env                    # NO INCLUIDO por seguridad
 ├── requirements.txt        # Dependencias
 └── README.md
