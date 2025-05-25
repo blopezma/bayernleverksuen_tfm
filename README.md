@@ -15,7 +15,7 @@ Repositorio GitHub: https://github.com/blopezma/bayernleverksuen_tfm
 ├── logos/                   # Logos utilizados                  
 ├── notebooks/               # Jupyter Notebooks explicativos
 ├── streamlit/               # Aplicaciones interactivas
-├── .env                    # NO INCLUIDO por seguridad
+├── env                    # NO INCLUIDO por seguridad
 ├── requirements.txt        # Dependencias
 └── README.md
 ```
