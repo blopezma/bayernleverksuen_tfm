@@ -12,6 +12,7 @@ Repositorio GitHub: https://github.com/blopezma/bayernleverksuen_tfm
 .
 ├── data/                    # Datos de entrada (.csv)
 ├── figs/                    # Salidas visuales (figuras PNG)
+├── logos/                   # Logos utilizados                  
 ├── notebooks/               # Jupyter Notebooks explicativos
 ├── streamlit/               # Aplicaciones interactivas
 ├── src/                     # Módulos de procesamiento
