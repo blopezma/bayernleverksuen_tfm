@@ -15,10 +15,12 @@ main
 ├── logos/                   # Logos utilizados                  
 ├── notebooks/               # Jupyter Notebooks explicativos
 ├── streamlit/               # Aplicaciones interactivas
-├── env                    # NO INCLUIDO por seguridad
-├── requirements.txt        # Dependencias
+├── env                      # NO INCLUIDO por seguridad
+├── requirements.txt         # Dependencias
 └── README.md
 ```
+
+> Es importante mantener esta estructura de carpetas para asegurar la correcta ejecución de los notebooks y scripts, y garantizar la reproducibilidad completa del flujo de trabajo.
 
 ## Requisitos
 
