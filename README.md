@@ -54,9 +54,9 @@ Los principales análisis están disponibles en formato Jupyter Notebook para fa
 
 - `01_preprocesado_datos.ipynb`: Limpieza inicial y tratamiento de coordenadas.
 - `02_red_pases.ipynb`: Generación de redes de pase y análisis automatizado con IA.
-- `03_freeze_frame.ipynb`: Visualización y análisis táctico de datos 360°.
-- `04_kmeans_formaciones.ipynb`: Detección de formaciones mediante clustering.
-- `05_kmeans_pases.ipynb`: Detección de pases mediante clustering.
+- `03_kmeans_formaciones.ipynb`: Detección de formaciones mediante clustering.
+- `04_kmeans_pases.ipynb`: Detección de pases mediante clustering.
+- `05_freeze_frame.ipynb`: Visualización y análisis táctico de datos 360°.
 
 > Nota: el archivo `.env` con la clave de la API no se incluye por motivos de seguridad.
 
