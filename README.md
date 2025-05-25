@@ -9,7 +9,7 @@ Repositorio GitHub: https://github.com/blopezma/bayernleverksuen_tfm
 ## Estructura del Proyecto
 
 ```
-.
+main
 ├── data/                    # Datos de entrada (.csv)
 ├── figs/                    # Salidas visuales (figuras PNG)
 ├── logos/                   # Logos utilizados                  
@@ -32,13 +32,15 @@ Dependencias principales:
 - pandas, numpy
 - matplotlib, mplsoccer
 - seaborn, scikit-learn
+- statsbombpy
 - streamlit
 - openai
 - python-dotenv
+- requests, ipython, jupyterlab
 
 ## Seguridad: Clave API
 
-El archivo `.env` no está incluido por motivos de seguridad, ya que contiene la clave de la API de OpenAI vinculada a una cuenta con método de pago. Para ejecutar los análisis que requieren interacción con la API, es necesario crear un archivo `.env` con la siguiente variable:
+El archivo .env no está incluido por motivos de seguridad, ya que contiene la clave de la API de OpenAI vinculada a una cuenta con método de pago. Para ejecutar los análisis que requieren interacción con la API, es necesario crear un archivo .env con la siguiente variable:
 
 ```
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -54,7 +56,7 @@ Los principales análisis están disponibles en formato Jupyter Notebook para fa
 - `04_kmeans_pases.ipynb`: Detección de pases mediante clustering.
 - `05_freeze_frame.ipynb`: Visualización y análisis táctico de datos 360°.
 
-> Nota: el archivo `.env` con la clave de la API no se incluye por motivos de seguridad.
+> Nota: el archivo .env con la clave de la API no se incluye por motivos de seguridad. Los archivos CSV no se incluyen en el repositorio debido a su tamaño. Se proporciona un notebook global para trabajar directamente con los datos ya extraídos desde la API de StatsBomb.
 
 ## Visualizaciones disponibles
 
@@ -81,12 +83,6 @@ streamlit run app_freeze_streamlit.py
 ```
 
 Esta aplicación permite seleccionar jugadas y visualizar todos los paneles sin necesidad de programación.
-
-## Contacto
-
-Proyecto desarrollado por Borja López como parte del Trabajo Final de Máster. Para dudas, sugerencias o aportes, puede abrir una issue en el repositorio.
-
-© 2024 Borja López. Proyecto académico sin fines comerciales.
 
 ## Contacto
 
