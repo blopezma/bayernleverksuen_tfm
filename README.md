@@ -89,7 +89,8 @@ Los principales análisis están disponibles en formato Jupyter Notebook para fa
 Para lanzar la aplicación:
 
 ```bash
-streamlit run streamlit/app_freeze_streamlit.py
+cd streamlit
+streamlit run app_freeze_streamlit.py
 ```
 
 Esta aplicación permite seleccionar jugadas y visualizar todos los paneles sin necesidad de programación.
