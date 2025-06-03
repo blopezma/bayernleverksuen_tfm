@@ -24,9 +24,15 @@ main
 
 ## Requisitos
 
+> **Importante:** todos los comandos deben ejecutarse desde **Anaconda Prompt**, no desde PowerShell ni CMD, para asegurar que `python` y `pip` funcionen correctamente con el entorno configurado.
+
 Se recomienda usar Python 3.10 o superior. Para instalar las dependencias:
 
+1. Abre **Anaconda Prompt**.
+2. Navega hasta el directorio raíz del proyecto (donde se encuentra el archivo `requirements.txt`):
+
 ```bash
+cd ruta/a/la/carpeta/del/proyecto
 pip install -r requirements.txt
 ```
 
